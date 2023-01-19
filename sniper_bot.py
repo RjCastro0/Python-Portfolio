@@ -22,7 +22,7 @@ if len(found) > 0:
     sleep(1)
     driver.find_element_by_class_name("confirm").click()
 
-    # Esto es por si vuelve a salir la silla razer
+   
 
     
     try:
