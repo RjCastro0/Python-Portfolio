@@ -45,8 +45,8 @@ if len(found) > 0:
     email = form.find_element_by_name("jform[email]")
     password = form.find_element_by_name("jform[password]")
 
-    email.send_keys("nate@nate.com")
-    password.send_keys("megustarazer")
+    email.send_keys("rafaeljcastro0@gmail.com")
+    password.send_keys("rafaeljcastro@")
 
     driver.find_element_by_class_name("login100-form-btn").click()
 
