@@ -3,7 +3,6 @@ from requests_html import HTMLSession
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-url = "https://www.pccomponentes.com/asus-geforce-gtx-1050-tis-4gb-gddr5"
 url_coolmod = "https://www.coolmod.com/msi-gf65-thin-10ue-035xes-i5-10200h-rtx-3060-max-q-16gb-512gb-nvme-freedos-156-144hz-portatil-precio"
 
 session = HTMLSession()
